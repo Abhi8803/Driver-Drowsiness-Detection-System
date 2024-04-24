@@ -4,11 +4,6 @@ The Drowsiness Detection System is an intelligent safety application designed to
 ## Introduction & Problem
 The Drowsiness Detection System addresses the critical issue of road accidents caused by driver fatigue. Fatigue-related accidents contribute significantly to road safety concerns, emphasizing the need for a proactive solution. The system employs computer vision techniques to monitor facial features, focusing particularly on the eyes, to detect signs of drowsiness. By utilizing a Convolutional Neural Network (CNN) model, the system aims to provide a robust and intelligent means of preventing accidents resulting from driver fatigue.
 
-## Paradigms
-The project embraces the following paradigms:
-1) Computer Vision: Utilizing OpenCV for real-time video capture and image processing to monitor the driver's face.
-2) Machine Learning: Implementing a Convolutional Neural Network (CNN) model through Keras for the classification of the driver's eye state.
-3) Proactive Safety Measures: Employing the system to trigger alarms when signs of drowsiness are detected, acting as a proactive safety mechanism.
 
 ## Model & Explanation (CCN)
 A CNN can have multiple layers, each of which learns to detect the different features of an input image. A filter or kernel is applied to each image to produce an output that gets progressively better and more detailed after each layer. In the lower layers, the filters can start as simple features.
@@ -27,10 +22,6 @@ The project leverages several libraries to achieve its objectives:
 4) Pandas: Used for data analysis and manipulation, ensuring effective handling of information.
 5) OS: Enables interaction with the operating system, facilitating file and directory operations.
 6) Pygame: Utilized for playing audio alarms, alerting the driver when signs of drowsiness are detected.
-
-## Output
-![image](https://github.com/mzainxo/Driver-Drowsiness-Detection-System/assets/120658271/c406701f-42b2-423f-b2d7-5f00e8984a28)
-![image](https://github.com/mzainxo/Driver-Drowsiness-Detection-System/assets/120658271/09802fd7-e07e-4454-bdae-ef016d55dada)
 
 ## Interfaces
 The system interfaces with the following components:
